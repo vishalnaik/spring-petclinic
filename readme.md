@@ -1,5 +1,6 @@
 # Spring PetClinic Sample Application
 
+[![Build Status](https://snap-ci.com/snap-ci-examples/spring-petclinic/branch/master/build_image)](https://snap-ci.com/snap-ci-examples/spring-petclinic/branch/master)
 
 ## Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>

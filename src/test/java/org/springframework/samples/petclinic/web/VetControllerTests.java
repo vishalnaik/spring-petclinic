@@ -42,7 +42,7 @@ public class VetControllerTests {
     public void testGetExistingUser() throws Exception {
     	ResultActions actions = mockMvc.perform(get("/vets.json").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk());
-    	actions.andExpect(content().contentType("application/xml;charset=UTF-8"))
+    	actions.andExpect(content().contentType("application/json;charset=UTF-8"))
                 .andExpect(jsonPath("$.vetList[0].id").value(1));
     }
 }
